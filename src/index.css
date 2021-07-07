@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  font-family: 'Mulish', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #222629;
+  color: aliceblue;
+}
+
+.navbar {
+  background-color: #222629!important;
+}
+
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: yellow !important;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar a {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.navbar a {
+  color: yellow;
+}
+
+
+.nav-link {
+  color: aliceblue !important;
+  margin-left: 10px;
+}
+
+.navbar a:hover {
+  color: white !important;
+}
+
+.github {
+  margin-left: 30px !important;
+  border-left: 1px solid yellow;
+  border-right: 1px solid yellow;
+  border-radius: 20px;
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid yellow;
+} 
+
+.know-more {
+  color: yellow;
+  border-radius: 50px;
+  border: 1px solid;
+}
+
+.know-more:hover {
+  color: white;
+  border-radius: 50px;
+  border-color: blue;
+}
+
+.header-img {
+  text-align: right;
+}
+
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+img.animated {
+  -webkit-animation: mover 2s infinite  alternate;
+  animation: mover 2s infinite  alternate;
+}
+img.animated {
+  -webkit-animation: mover 2s infinite  alternate;
+  animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+
+.line-break {
+  margin-top: 2px;
+  color: yellow;
+}
+
+
+@media ( max-width: 991px ) {
+
+  .navbar-brand {
+    font-size: 1.8rem !important;
+  }
+
+  .github {
+    border: none;
+  }
+
+  .menu_active {
+    font: bold !important;
+    border-bottom: none;
+  }
+
+  .footer {
+    font-size: 0.5rem;
+  }
+
+  .nav-item {
+    justify-content: center !important;
+  }
+
+  .footer-home {
+    margin-top: 130px;
+    position: fixed;
+  }
+
+  #project-card {
+    margin-right: 34px;
+  }
+
+}
+
+#github-main {
+
+}
+
+#tsparticles {
+  position: fixed !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.footer {
+  position: relative;
+  border-top: 1px solid yellow;
+  bottom: 0 !important;
+  padding-top: 15px !important;
+  margin-bottom: 15px !important;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+  background-color: #222629;
+  color: rgb(253, 251, 251);
+  text-align: center;
+  font-size: 1rem;
+
+}
+
+
+
+code {
+  font-family: 'Mulish', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.about-head {
+  margin-top: 60px !important;
+}
+
+.tech-icons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid yellow !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+.tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid yellow !important;
+}
+
+.project-card {
+  color: white !important;
+}
+
+.project-card-view {
+  background-color: #222629;
+  border: 1px solid yellow;
+}
+
+.card-img {
+  padding: 20px 15px 15px 15px !important; 
+}
